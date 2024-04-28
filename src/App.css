@@ -1,0 +1,57 @@
+.App {
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My Styles */
+@font-face {
+  font-family: 'DIN-Bold'; /* You can use any name you prefer */
+  src: url('./fonts/DIN\ Black.ttf') format('truetype'); /* Replace with the actual path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN-Regular'; /* You can use any name you prefer */
+  src: url('./fonts/DIN.ttf') format('truetype'); /* Replace with the actual path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.app {
+  font-family: 'DIN-Bold', sans-serif;
+}

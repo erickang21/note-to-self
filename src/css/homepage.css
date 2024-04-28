@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'DIN-Bold'; /* You can use any name you prefer */
+    src: url('../fonts/DIN\ Black.ttf') format('truetype'); /* Replace with the actual path to your font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN-Regular'; /* You can use any name you prefer */
+    src: url('../fonts/DIN.ttf') format('truetype'); /* Replace with the actual path to your font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.homepage {
+    height: auto;
+}
+
+.homepage-heading {
+    display: flex;
+    text-outline: gray;
+}
+
+.homepage-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-image: url('https://cdn.discordapp.com/attachments/520734295112024064/1206439765168103445/wp4854964.png?ex=65dc0396&is=65c98e96&hm=57ed427a4a6fd047ad62d391675a57e277bd737f7ccfb26014209f9a3b443a9e&');
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.homepage-greeting {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+.homepage-date {
+    z-index: 1;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.homepage-body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card {
+    width: auto;
+    padding-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'DIN-Regular', sans-serif;
+}
+
+.card-title {
+    margin-left: 10px;
+    font-size: 32px;
+    font-family: 'DIN-Bold', sans-serif;
+    margin-top: 0;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.tag {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+    background-color: lightblue;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.tag-header {
+    height: 15px;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.tag-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+.card-unlocked-date {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.card-body-summary-header {
+    margin-left: 10px;
+}
+
+.card-body-summary {
+    margin-left: 10px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card-tags-header {
+    margin-left: 10px;
+}
+
+.card-tags-list {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}

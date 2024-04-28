@@ -1,0 +1,13 @@
+.create-entry {
+    display: flex;
+    justify-content: center;
+}
+
+.create-entry-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-entry-view-date {
+    margin-left: 20px;
+}

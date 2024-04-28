@@ -1,0 +1,17 @@
+.login-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    border: 1px solid #c7ede6;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-logo {
+    display: flex;
+    justify-content: center;
+}
